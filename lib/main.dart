@@ -1,9 +1,12 @@
+import 'package:patient_profile_management/core/di/locator.dart';
+
 import 'core/routes/auto_router.dart';
 import 'package:flutter/material.dart';
 
 import 'themes/app_themes.dart';
 
 void main() {
+  setup();
   runApp(MyApp());
 }
 
